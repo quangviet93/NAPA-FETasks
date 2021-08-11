@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f0f2f5;
+  width: 1284px;
+}
+.container {
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  padding-top:130px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.layout-2 {
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: 1px #ffffff solid;
+  border-radius: 6px;
+  width: 396px;
+  height: 349px;
+  text-align: center;
+}
+.layout-input {
+  margin: 17px;
+}
+.layout-1 {
+  width: 60%;
+  font-family: system-ui;
+}
+.layout-1 > a {
+  color: #1877f2;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.layout-1 > p {
+  font-size: 30px;
+}
+.input-form {
+  width: 364px;
+  height: 52px;
+  padding-bottom: 12px;
+}
+.btn-input {
+  font-family: sans-serif;
+  font-size: inherit;
+  border: 1px #dddfe2 solid;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+  width: 330px
+}
+.btn-login {
+  background-color: #1877f2;
+  font-weight: bolder;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  width: 364px;
+  height: 52px;
+}
+.btn-a {
+  padding-top: 20px;
+  color:#1877f2;
+}
+.btn-a > a {
+  text-decoration: none;
+}
+
+.btn-register {
+  background-color: #55b72c;
+  font-weight: bolder;
+  color: #ffffff;
+  border-radius: 6px;
+  border: none;
+  width: 175px;
+  height: 45px;
+  font-size: 17px;
+}
+.line {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+.content {
+  padding-top: 25px;
+}
+.footer {
+  padding-right: 150px;
+  padding-left: 150px;
+  font-size: 12px;
+  background-color: #ffffff;
+  height: 156px;
+  color: #737373;
+  padding-top: 20px;
+}
+.languages, .services {
+  list-style: none;
+  padding-bottom: 8px;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #dddfe2;
+  flex-wrap: wrap;
+}
+.services {
+  border-bottom: unset;
+}
+.languages, .services > li {
+  padding-left: 10px;
+  text-decoration: none;
+}
+.languages > li > a {
+  padding-left: 10px;
+  text-decoration: none;
+  color:#737373;
+}
+.services > li > a {
+  padding-left: 10px;
+  text-decoration: none;
+  color:#737373;
+}
+.copyright {
+  padding-left: 20px;
+}
