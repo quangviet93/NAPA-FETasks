@@ -13,6 +13,7 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 #one, #two, #three {
   display: flex;
