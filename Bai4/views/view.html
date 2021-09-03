@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone UI google meeting</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type='text/css' rel="stylesheet" href="../css/view.css">
+  <script src='https://meet.jit.si/external_api.js'></script>
+</head>
+
+<body onload="onload()">
+
+  <div class="header-meeting">
+    <div class="logo-meeting">
+      <a href="#">
+        <img
+          src="https://www.gstatic.com/meet/google_meet_horizontal_wordmark_2020q4_1x_icon_124_40_2373e79660dabbf194273d27aa7ee1f5.png" />
+        <span>Meet</span>
+      </a>
+    </div>
+    <div class="item-meeting">
+      <div class="date" id="date">date</div>
+      <div class="icons"><a href="#"><i class="material-icons">help_outline</i></a></div>
+      <div class="icons"><a href="#"><i class="material-icons">feedback</i></a></div>
+      <div class="icons"><a href="#"><i class="material-icons">settings</i></a></div>
+      <div class="icons mt"><a href="#"><i class="material-icons">apps</i></a></div>
+      <div class="icons"><a href="#"><img
+            src="https://lh3.googleusercontent.com/ogw/ADea4I5X98YcGXWCpTSVe6Im76KQzXI8Wa70JxGK7cW_=s32-c-mo" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="body-meeting">
+    <div class="sidebar-meeting">
+      <div class="content-1">
+        <p>Premium video meetings.<br /> Now free for everyone.</p>
+      </div>
+      <div class="content-2">
+        <p>We re-engineered the service we built for secure business<br /> meetings, Google Meet, to make it free and
+          available for all.</p>
+      </div>
+      <div class="join-meeting">
+        <div class="btn-meeting">
+          <div class="btn-item">
+            <a href="https://meet.google.com/mha-exyq-xah?pli=1&authuser=0">
+              <i class="material-icons">video_call</i>
+              <p>New meeting</p>
+            </a>
+          </div>
+        </div>
+        <div class="input-meeting mt">
+          <div>
+            <i class="material-icons">keyboard</i>
+            <input type="text" id="inputText" placeholder="Enter a code or link" />
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="footer-slider-left">
+        <span>
+          <a href="https://meet.google.com/about/redirect/landing-learn-more/?hl=en">Learn more</a>
+          about Google Meet
+        </span>
+      </div>
+    </div>
+    <div class="sidebar-image">
+      <div class="image-sline">
+        <button id="left" onclick="plusSlides(-1)" class="slide-btn-left"><i
+            class="material-icons">chevron_left</i></button>
+        <div>
+          <div class="slides">
+            <img src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg"
+              style="width:100%" />
+          </div>
+          <div class=" slides">
+            <img src="https://www.gstatic.com/meet/user_edu_brady_bunch_light_81fa864771e5c1dd6c75abe020c61345.svg"
+              style="width:100%" />
+          </div>
+          <div class="slides">
+            <img src="https://www.gstatic.com/meet/user_edu_scheduling_light_b352efa017e4f8f1ffda43e847820322.svg"
+              style="width:100%" />
+          </div>
+          <div class="slides">
+            <img src="https://www.gstatic.com/meet/user_edu_safety_light_e04a2bbb449524ef7e49ea36d5f25b65.svg"
+              style="width:100%" />
+          </div>
+        </div>
+        <div class="footer-slider-right">
+          <div>See everyone together</div>
+          <span>
+            To see more people at the same time, go to Change layout in the More options menu
+          </span>
+        </div>
+        <button onclick="plusSlides(1)" class="slide-btn-right"><i class="material-icons">chevron_right</i></button>
+      </div>
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <script language="javascript" src="../js/view.js"></script>
+</body>
+
+</html>
