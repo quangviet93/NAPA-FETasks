@@ -1,0 +1,47 @@
+// để gửi request.
+
+GET http://localhost:5000/auth/register
+###
+GET http://localhost:3100/auth/anh3
+###
+
+POST http://localhost:3100/auth/register
+content-type: application/json
+
+{"username":"anh5","password":"2323"}
+###
+POST http://localhost:3100/auth/login
+content-type: application/json
+
+{"username":"anh3"}
+###
+
+GET http://localhost:3100/post
+
+###
+POST http://localhost:3100/post/create
+content-type: application/json
+
+{
+  "title":"ReactJS",
+  "description":"my post",
+  "url":"youtube.com",
+  "status":"LEARNING",
+  "user":"6145b512adabf77465c9e2ab"
+}
+###
+DELETE http://localhost:3100/post/6146e4cc983fb1f4d3079f25
+
+###
+PUT http://localhost:3100/post/6146e7dd426083b8f5714ccd
+content-type: application/json
+
+{
+  "title":"ReactJS",
+  "description":"my new post haha",
+  "url":"google.com",
+  "status":"LEARNING"
+}
+
+
+
