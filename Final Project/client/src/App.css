@@ -110,3 +110,6 @@ button.post-button.btn:active {
 .post-title {
 	margin-bottom: 0.5rem;
 }
+.witch {
+	max-width: 400px;
+}

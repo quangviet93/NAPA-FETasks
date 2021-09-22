@@ -23,15 +23,14 @@ POST http://localhost:3100/post/create
 content-type: application/json
 
 {
-  "title":"ReactJS",
+  "title":"React Native",
   "description":"my post",
   "url":"youtube.com",
   "status":"LEARNING",
   "user":"6145b512adabf77465c9e2ab"
 }
 ###
-DELETE http://localhost:3100/post/6146e4cc983fb1f4d3079f25
-
+DELETE http://localhost:3100/post/61476b938e3dd6a693f6ae83
 ###
 PUT http://localhost:3100/post/6146e7dd426083b8f5714ccd
 content-type: application/json

@@ -1,9 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
-import authservice from '../../server/authservice';
+import authservice from '../../service/authservice';
+
 
 const RegisterForm = () => {
+
   const onFormSubmit = e => {
     e.preventDefault()
     const formData = new FormData(e.target),
